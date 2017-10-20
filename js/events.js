@@ -7,9 +7,9 @@ function getIt() {
 }
 
 function frameIt() {
-  $('.tasty').on('load',function() {
-
-  }) //load, red frame
+  $('img').on('load',function() {
+    
+  }) //load, adds class tasty to red frame
 }
 
 function pressIt() {
